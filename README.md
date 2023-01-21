@@ -223,6 +223,10 @@ Contract deployed!
 Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 ```
 
+### polkadot_js_example のバージョンについて
+
+4.33 だとうまく動く。
+
 ### 参考文献
 
 1. [How to develop a Smart Contract on Astar Network](https://docs.google.com/presentation/d/1nNqcABdysLvQzDEAfvCjFiXWCoQs1jCGJAGkkCZfBiw/edit#slide=id.p)
