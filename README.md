@@ -75,6 +75,12 @@ result
 ✔ Writing config OK
 ```
 
+### compile command (by +nightly)
+
+```bash
+cargo +nightly contract build
+```
+
 ### swanky check command
 
 ```bash
@@ -225,7 +231,11 @@ Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 
 ### polkadot_js_example のバージョンについて
 
-4.33 だとうまく動く。
+4.33 だとうまく動く。それ以外だと動かない。
+
+### ※注意事項※
+
+`sudo`をつけてやること。
 
 ### 参考文献
 
