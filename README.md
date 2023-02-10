@@ -4,7 +4,17 @@ Astar ✖️ BuildersWeekend で構築する Dapp 用のリポジトリです。
 
 ### WebAssembly とは
 
-WebAssembly はブラウザで JavaScript 以外の言語を実行するための技術で、Rust などで書いたものをバイナリコードに変換して、ブラウザで実行できる技術です。
+WebAssembly はブラウザで JavaScript 以外の言語を実行するための技術で、Rust などで書いたものをバイナリコードに変換して、ブラウザで実行できる技術です。スタックベース仮想マシン用のバイナリフォーマットの実行環境。仮想マシン用の ISA。どんな物理マシンでも(つまり OS に依存しない)動くこと。W3C 勧告。Mozira や Google なども開発している。
+
+### バイナリ・フォーマットとは
+
+テキストフォーマットのように、特定の環境に依存することなく、テキストエディタでデータを読み書きすることはできないが、代わりにデータの記録方式はプログラムで任意に決定できるため、情報を効率よく構造化することが可能になる。
+
+### ISA
+
+ISA もバイナリフォーマット(特定の OS への命令文)
+
+- arm64 など
 
 ### WASM とは
 
@@ -12,7 +22,7 @@ WebAssembly のコードを実行できる環境のこと。
 
 ### WASI(WebAssembly System Interface)とは
 
-ブロックチェーンで使われている WebAssembly Runtime を紹介する前に、Web 以外で WebAssembly を利用するための標準化の取り組みである WASI について紹介します。WASI は WebAssembly System Interface のことで、WebAssembly をブラウザ以外の環境で実行するため、ホストのファイルシステムやネットワークなどの OS 機能へのアクセスを提供するための仕様です。
+ブロックチェーンで使われている WebAssembly Runtime を紹介する前に、Web 以外で WebAssembly を利用するための標準化の取り組みである WASI について紹介します。WASI は WebAssembly System Interface のことで、WebAssembly をブラウザ以外の環境で実行するため、ホストのファイルシステムやネットワークなどの OS 機能へのアクセスを提供するための仕様です。W3C が勧告。docker でやろうとしていたことをもっと効率良くできる。
 
 ### ERC20PresetMinterPauser とは
 
@@ -237,6 +247,12 @@ Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 
 `sudo`をつけてやること。
 
+### メモ
+
+- Defi の席は空いている。EVM と WASM を生きできると良い。
+- ハッカソンを見ると求めているのがわかる。
+- 最近は WASM にフォーカスしている。
+
 ### 参考文献
 
 1. [How to develop a Smart Contract on Astar Network](https://docs.google.com/presentation/d/1nNqcABdysLvQzDEAfvCjFiXWCoQs1jCGJAGkkCZfBiw/edit#slide=id.p)
@@ -264,3 +280,9 @@ Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 23. [Why WebAssembly for Smart Contracts?](https://use.ink/why-webassembly-for-smart-contracts)
 24. [Swanky Docs](https://docs.astar.network/docs/wasm/sc-dev/swanky/)
 25. [contracts-UI](https://contracts-ui.substrate.io/)
+26. [WebAssembly-benchmark](https://github.com/takahirox/WebAssembly-benchmark)
+27. [JS VS WASM Demo](https://takahirox.github.io/WebAssembly-benchmark/)
+28. [MDN WebAssembly](https://developer.mozilla.org/ja/docs/WebAssembly)
+29. [こわくない LLVM 入門！](https://qiita.com/Anko_9801/items/df4475fecbddd0d91ccc)
+30. [wasmer](https://wasmer.io/)
+31. [Wasmtime](https://wasmtime.dev/)
