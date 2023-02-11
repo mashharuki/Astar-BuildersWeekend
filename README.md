@@ -301,3 +301,4 @@ V3 では、コントラクトからコントラクトを呼び出すものは�
 34. [最新版の polkadot.js](https://polkadotjs-apps.web.app/#/explorer)
 35. [Flipper UI Sample](https://cielo.works/flipper-ui/)
 36. [【Github】wasm-showcase-dapps](https://github.com/AstarNetwork/wasm-showcase-dapps/tree/main/nft/ui/viewer)
+37. [Rust の文字列操作](https://qiita.com/aflc/items/f2be832f9612064b12c6)
