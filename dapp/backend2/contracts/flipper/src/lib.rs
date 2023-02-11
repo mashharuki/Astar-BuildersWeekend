@@ -16,7 +16,7 @@ mod flipper {
     pub struct Flipper {
         value: bool,
         count: u32,
-        text: ink_prelude::string::String
+        text: String
     }   
 
     // 関数の定義
