@@ -253,6 +253,10 @@ Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 - ハッカソンを見ると求めているのがわかる。
 - 最近は WASM にフォーカスしている。
 
+### !ink の静的テストコードについて
+
+V3 では、コントラクトからコントラクトを呼び出すものはできない。V4 ではでき始めている。
+
 ### 参考文献
 
 1. [How to develop a Smart Contract on Astar Network](https://docs.google.com/presentation/d/1nNqcABdysLvQzDEAfvCjFiXWCoQs1jCGJAGkkCZfBiw/edit#slide=id.p)
@@ -286,3 +290,5 @@ Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 29. [こわくない LLVM 入門！](https://qiita.com/Anko_9801/items/df4475fecbddd0d91ccc)
 30. [wasmer](https://wasmer.io/)
 31. [Wasmtime](https://wasmtime.dev/)
+32. [OpenBrush](https://openbrush.io/)
+33. [OpenBruch Docs](https://docs.openbrush.io/deployment)
