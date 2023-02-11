@@ -70,7 +70,7 @@ result
 ### 生成した成果物には`.git`ファイルが含まれているので削除するコマンド
 
 ```bash
-
+sudo rm -r .git
 ```
 
 ### compile command
