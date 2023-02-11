@@ -67,6 +67,12 @@ result
 🎉 😎 Swanky project successfully initialised! 😎 🎉
 ```
 
+### 生成した成果物には`.git`ファイルが含まれているので削除するコマンド
+
+```bash
+
+```
+
 ### compile command
 
 ```bash
@@ -292,3 +298,6 @@ V3 では、コントラクトからコントラクトを呼び出すものは�
 31. [Wasmtime](https://wasmtime.dev/)
 32. [OpenBrush](https://openbrush.io/)
 33. [OpenBruch Docs](https://docs.openbrush.io/deployment)
+34. [最新版の polkadot.js](https://polkadotjs-apps.web.app/#/explorer)
+35. [Flipper UI Sample](https://cielo.works/flipper-ui/)
+36. [【Github】wasm-showcase-dapps](https://github.com/AstarNetwork/wasm-showcase-dapps/tree/main/nft/ui/viewer)
