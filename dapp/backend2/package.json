@@ -6,6 +6,8 @@
   "scripts": {
     "run-node": "swanky node start",
     "test": "mocha -r ts-node/register \"test/**/*.test.ts\" --exit --timeout 20000",
+    "test:contract": "cd contracts/flipper && cargo +nightly contract test",
+    "build": "cd contracts/flipper && cargo +nightly contract build",
     "postinstall": "patch-package"
   },
   "engines": {

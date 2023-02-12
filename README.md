@@ -263,6 +263,14 @@ Contract address: WVLMRqYtaqqv5wiEonHnH8LMXv7TJujF4qMLQz2ncnAcZxt
 
 V3 では、コントラクトからコントラクトを呼び出すものはできない。V4 ではでき始めている。
 
+### エラー
+
+CodeRejected
+
+The contract's code was found to be invalid during validation or instrumentation.A more detailed error can be found on the node console if debug messages are enabledor in the debug buffer which is returned to RPC clients.
+
+Can't decode wasm code
+
 ### 参考文献
 
 1. [How to develop a Smart Contract on Astar Network](https://docs.google.com/presentation/d/1nNqcABdysLvQzDEAfvCjFiXWCoQs1jCGJAGkkCZfBiw/edit#slide=id.p)
