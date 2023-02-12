@@ -91,7 +91,7 @@ mod flipper {
          * 文字列を取得する関数
          */
         #[ink(message)]
-        pub fn get_text(&mut self) -> String{
+        pub fn get_text(&self) -> String{
             let a = self.text.clone();
             a
         }

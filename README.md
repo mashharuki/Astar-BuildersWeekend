@@ -267,9 +267,19 @@ V3 では、コントラクトからコントラクトを呼び出すものは�
 
 CodeRejected
 
-The contract's code was found to be invalid during validation or instrumentation.A more detailed error can be found on the node console if debug messages are enabledor in the debug buffer which is returned to RPC clients.
+The contract's code was found to be invalid during validation or instrumentation.A more detailed error can be found on the node console if debug messages are enabledor in the debug buffer which is returned to RPC clients.  
 
-Can't decode wasm code
+Can't decode wasm code  
+
+[https://github.com/WebAssembly/binaryen](https://github.com/WebAssembly/binaryen)からバージョン100をダウンロードしてきてコピ-する。  
+
+環境のバージョン確認コマンド
+
+```bash
+which wasm-opt
+wasm-opt --version
+```
+
 
 ### 参考文献
 
